@@ -1,6 +1,8 @@
 About ncurses
 =============
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: http://www.gnu.org/software/ncurses/
 
 Package license: Free software (MIT-like)
@@ -16,6 +18,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/ncurses-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/ncurses-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/ncurses-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/ncurses-feedstock)
+[![linux-aarch64](https://img.shields.io/shippable/5c3107604e246e0700ce91fe/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/ncurses-feedstock)
 ![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
@@ -104,3 +107,9 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@jakirkham](https://github.com/jakirkham/)
+
