@@ -1,7 +1,10 @@
 #!/bin/bash
+set -ex
 
 # Try adding this, maybe this is fixed in more recent versions of conda???
 export STRIP=aarch64-conda_cos7-linux-gnu-strip
+THE_STRIP=`which ${STRIP}`
+ln -s ${THE_STRIP} /usr/bin/strip
 
 for USE_WIDEC in false true;
 do
